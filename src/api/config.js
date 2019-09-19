@@ -7,7 +7,7 @@ module.exports = {
       'http://cloudproxy01.chanapp.chanjet.com'
     ],
     'ciaHostArray': [
-      'http://inte-cia.chanapp.chanjet.com'
+      'http://cia.chanapp.chanjet.com',
     ],
     'tplusHostArray': [
       'http://webapp.tplus.chanjet.com'

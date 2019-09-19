@@ -27,10 +27,10 @@ const appDesc = '数据分析，智慧推广，赋能业务员，让营销更简
 const serviceDue = true;
 const logoSrc = './image/welcome.png';
 
-const indexPage = 'portal';
-const username = '15175750878';
-const password = 'fengtao10';
-const accountFilter = ['YKJ'];
+const indexPage = 'home';
+const username = '17600382579';
+const password = 'ysd123456';
+const accountFilter = [''];
 
 const iosVersion = '4.9.0';
 const androidVersion = '4.9.2';

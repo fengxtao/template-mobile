@@ -1,0 +1,33 @@
+.home {
+    display: flex;
+    flex-flow: column;
+
+    .homeData {
+        flex-grow: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+
+        .searchMonth {
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+
+            .iconMonth {
+                font-size: 192.5px;
+                color: #DDDDDD;
+            }
+
+            .monthText {
+                font-size: 17px;
+                color: #DDDDDD;
+                padding-bottom: 180px;
+            }
+        }
+
+        .dataBottom{
+           padding: 25px;
+        }
+    }
+}

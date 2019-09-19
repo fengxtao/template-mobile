@@ -1,0 +1,56 @@
+/* 
+* @Author: yanzla@chanjet.com  
+* @Date: 2019-09-11 19:28:41   
+*/
+.SalaryItem {
+    padding: 12px 15px 14px 15px;
+    border-bottom: 1px solid #DDDDDD;
+
+    .title {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .titleInfo {
+            font-size: 15px;
+            font-weight: bold;
+            color: #4A4A4A;
+        }
+
+        .detail {
+            font-size: 12px;
+            color: #4A4A4A;
+
+            .icondetail {
+                margin-left: 6px;
+                font-size: 12px;
+                color: #4A4A4A;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .data {
+        display: flex;
+        flex-flow: row nowrap;
+
+        &>div {
+            flex-grow: 1;
+        }
+
+        .dataItem {
+            padding: 12px 10.5px 0px 10.5px;
+            font-size: 14px;
+
+            .WageName {
+                color: #4A4A4A;
+            }
+
+            .WageValue {
+                padding-left: 8.7px;
+                color: #000000;
+            }
+        }
+    }
+}
