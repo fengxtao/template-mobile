@@ -1,4 +1,0 @@
---recursive
---bail
---compilers js:babel-core/register
-test/*.test.js
