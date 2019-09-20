@@ -10,7 +10,7 @@ npm install tplus-cli -g
 
 #### 生成项目
 ```
-tplus-cli init
+ttplus init
 ```
 
 | 操作  | 默认  |
